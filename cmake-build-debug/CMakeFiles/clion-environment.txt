@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\wandugu\soft\mingw64
+Options: 
+
+Options:

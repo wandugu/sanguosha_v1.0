@@ -1,0 +1,3 @@
+"C:\wandugu\soft\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\sanguosha.dir/objects.a
+C:\wandugu\soft\mingw64\bin\ar.exe cr CMakeFiles\sanguosha.dir/objects.a @CMakeFiles\sanguosha.dir\objects1.rsp
+C:\wandugu\soft\mingw64\bin\g++.exe -g  -static -Wl,--whole-archive CMakeFiles\sanguosha.dir/objects.a -Wl,--no-whole-archive  -o sanguosha.exe -Wl,--out-implib,libsanguosha.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sanguosha.dir\linklibs.rsp

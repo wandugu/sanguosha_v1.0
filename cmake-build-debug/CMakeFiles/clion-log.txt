@@ -1,1 +1,4 @@
-CMakeLists.txt not found in D:\software\work\C++\sanguosha Select CMakeLists.txt file...
+"C:\wandugu\soft\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\software\work\C++\sanguosha
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/software/work/C++/sanguosha/cmake-build-debug
