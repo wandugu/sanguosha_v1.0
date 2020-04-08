@@ -3,6 +3,8 @@ project(sanguosha)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_compile_options(-std=c++11)
+
 set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 include_directories(src)

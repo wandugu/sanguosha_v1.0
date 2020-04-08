@@ -7,6 +7,32 @@
 #include <ctime>
 using namespace std;
 
+string cardShowName[] = {
+        "",
+        //基本牌
+            //基础包
+        "杀",
+        "闪",
+        "桃",
+            //军争包
+        "酒",
+        //锦囊牌
+            //基础包
+        "无中生有",
+        "过河拆桥",
+        "顺手牵羊",
+        "决斗",
+        "借刀杀人",
+        "万箭齐发",
+        "南蛮入侵",
+        "桃园结义",
+        "五谷丰登",
+        "无懈可击",
+            //军争包
+        //装备牌
+            //基础包
+};
+
 CardDetail cardInfo[200] = {
         {DMD,  1, BASE, NOTEQUIP, RED, BASIC, SHA},
         {DMD,  2, BASE, NOTEQUIP, RED, BASIC, SHA},
