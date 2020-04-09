@@ -17,6 +17,26 @@
 					<DistClean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
 				<Option type="4"/>
@@ -76,6 +96,26 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
 					<CompileFile command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/wandugu/soft/mingw64/bin/mingw32-make.exe -f &quot;D:/software/work/C++/sanguosha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>

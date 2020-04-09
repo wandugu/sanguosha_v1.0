@@ -4,8 +4,11 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "player.h"
 
 using namespace std;
+
+const int START_CARD_NUM = 4;
 
 class Card
 {
@@ -13,6 +16,7 @@ public:
     void InitCards();
     void ShowCards(const vector<int> &cards);
     void ReshuffleCards(vector<int> &cards);
+    void Start(vector<int> &cards, Player *player, int playerTotalNum);
     vector<int> totalCards;
     vector<int> surplusCards;
 private:

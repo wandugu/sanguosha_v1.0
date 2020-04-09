@@ -14,9 +14,10 @@ public:
 
     void InitCard();
     void DrawCard();
-
-private:
+    void ShowCard(const vector<int> &cards);
     vector<int> currCards;
+private:
+
 };
 
 

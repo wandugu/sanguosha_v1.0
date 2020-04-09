@@ -22,7 +22,7 @@ if [[ $1 == "12" ]]; then
 	rm -rf *
 	cmake ../
 	make
-	# make install
+	make install
 	cd -
 fi
 

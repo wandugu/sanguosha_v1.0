@@ -15,3 +15,5 @@ set(sgsAll src/main.cpp
     )
 
 add_executable(sanguosha ${sgsAll})
+
+install(TARGETS sanguosha DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/test)

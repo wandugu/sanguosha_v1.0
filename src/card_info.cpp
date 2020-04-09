@@ -166,3 +166,15 @@ void Card::ReshuffleCards(vector<int> &cards)
     random_shuffle(cards.begin(), cards.end());
 }
 
+void Card::Start(vector<int> &cards, Player *player, int playerTotalNum)
+{
+    vector<int>::iterator dealingCard = cards.begin();
+    for (int i = 0; i < playerTotalNum; i++) {
+        for (int j = 0; j < START_CARD_NUM; j++) {
+            player[i].currCards.push_back(*dealingCard);
+            cards.erase(dealingCard);
+            dealingCard++;
+        }
+    }
+
+}
