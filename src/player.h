@@ -12,11 +12,19 @@ public:
     Player(int playTotalNum);
     Player(const Player &player);
     ~Player();
-    void InitCard();
-    void DrawCard();
-    void ShowCard(const vector<int> &cards);
+    void InitCards();
+    void TurnStart();
+    void TurnPrepare();
+    void DrawCards();
+    void PlayCards();
+    void DiscardCards();
+    void TurnEnd();
+    void ShowCards(const vector<int> &cards);
     vector<int> currCards;
     int totalNum;
+    int identity;
+    int health;
+    int nickName;
 private:
 
 };

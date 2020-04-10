@@ -5,14 +5,15 @@
 int main() {
     Card *card = new Card;
     card->InitCards();
-    card->ShowCards(card->surplusCards);
     card->ReshuffleCards(card->surplusCards);
     card->ShowCards(card->surplusCards);
-//    Player *player = new Player(3)[3];
     vector<Player> player(3, 3);
 
     card->Start(card->surplusCards, player, 3);
-    player[0].ShowCard(player[0].currCards);
+    player[0].ShowCards(player[0].currCards);
+    player[1].ShowCards(player[1].currCards);
+    player[2].ShowCards(player[2].currCards);
+    card->ShowCards(card->surplusCards);
     cout << "wan" << endl;
     system("pause");
     return 0;

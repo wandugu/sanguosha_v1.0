@@ -32,6 +32,20 @@ string
 player.h
 D:/software/work/C++/sanguosha/src/player.h
 
+D:/software/work/C++/sanguosha/src/main.cpp
+iostream
+-
+card_info.h
+D:/software/work/C++/sanguosha/src/card_info.h
+player.h
+D:/software/work/C++/sanguosha/src/player.h
+
+D:/software/work/C++/sanguosha/src/player.cpp
+player.h
+D:/software/work/C++/sanguosha/src/player.h
+card_info.h
+D:/software/work/C++/sanguosha/src/card_info.h
+
 D:/software/work/C++/sanguosha/src/player.h
 iostream
 -

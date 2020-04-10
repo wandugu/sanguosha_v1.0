@@ -34,7 +34,7 @@ string cardShowName[] = {
 };
 
 CardDetail cardInfo[200] = {
-        {DMD,  1, BASE, NOTEQUIP, RED, BASIC, SHA},
+        {DMD,  1, BASE, NOTEQUIP, RED, BASIC, SHA, "杀"},
         {DMD,  2, BASE, NOTEQUIP, RED, BASIC, SHA},
         {DMD,  3, BASE, NOTEQUIP, RED, BASIC, SHA},
         {DMD,  4, BASE, NOTEQUIP, RED, BASIC, SHA},
@@ -150,14 +150,15 @@ void Card::InitCards()
 
 void Card::ShowCards(const vector<int> &cards)
 {
+    cout << "-------- surplus cards --------" << endl;
     for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
         cout << *iter << ",";
     }
     cout << endl;
-    for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
-        cout << cardInfo[*iter - 1].num << ",";
-    }
-    cout << endl;
+//    for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
+//        cout << cardInfo[*iter - 1].num << ",";
+//    }
+//    cout << endl;
 }
 
 void Card::ReshuffleCards(vector<int> &cards)

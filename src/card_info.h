@@ -19,6 +19,7 @@ public:
     void Start(vector<int> &cards, vector<Player> &player, int playerTotalNum);
     vector<int> totalCards;
     vector<int> surplusCards;
+    vector<int> discardedCards;
 private:
 
 };
@@ -31,7 +32,8 @@ typedef struct cardDetail
 	int equipType;
 	int color;
 	int belongToPack;
-	int name;
+	int nameNum;
+	string name;
 	string description;
 //    int totalNum;
 } CardDetail;
