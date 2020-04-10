@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+D:/software/work/C++/sanguosha/src/card_info.cpp
+iostream
+-
+vector
+-
+card_info.h
+D:/software/work/C++/sanguosha/src/card_info.h
+player.h
+D:/software/work/C++/sanguosha/src/player.h
+algorithm
+-
+cstdlib
+-
+ctime
+-
+
 D:/software/work/C++/sanguosha/src/card_info.h
 iostream
 -
@@ -13,14 +29,6 @@ vector
 -
 string
 -
-player.h
-D:/software/work/C++/sanguosha/src/player.h
-
-D:/software/work/C++/sanguosha/src/main.cpp
-iostream
--
-card_info.h
-D:/software/work/C++/sanguosha/src/card_info.h
 player.h
 D:/software/work/C++/sanguosha/src/player.h
 

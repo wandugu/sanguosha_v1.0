@@ -16,7 +16,7 @@ public:
     void InitCards();
     void ShowCards(const vector<int> &cards);
     void ReshuffleCards(vector<int> &cards);
-    void Start(vector<int> &cards, Player *player, int playerTotalNum);
+    void Start(vector<int> &cards, vector<Player> &player, int playerTotalNum);
     vector<int> totalCards;
     vector<int> surplusCards;
 private:

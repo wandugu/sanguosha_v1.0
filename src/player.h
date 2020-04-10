@@ -10,12 +10,13 @@ class Player {
 public:
     Player();
     Player(int playTotalNum);
+    Player(const Player &player);
     ~Player();
-
     void InitCard();
     void DrawCard();
     void ShowCard(const vector<int> &cards);
     vector<int> currCards;
+    int totalNum;
 private:
 
 };
