@@ -90,9 +90,28 @@ enum {
 	TAO_YUAN_JIE_YI,
 	WU_GU_FENG_DENG,
 	WU_XIE_KE_JI,
-		//军争包
-	//装备牌
-		//基础包
+    //军争包
+        //装备牌
+    //基础包
+        //武器
+    ZHU_GE_LIAN_NU,
+    HAN-BING-JIAN,
+    CI-XIONG-SHUANG-GU-JIAN,
+    QING-LNOG-YAN-YUE-DAO,
+    ZHANG-BA-SHE-MAO,
+    GUAN-SHI-FU,
+    FANG-TIAN-HUA-JI,
+    QI-LIN-GONG,
+        //防具
+    BA-GUA-ZHEN,
+    REN-WANG-DUN,
+        //马
+    ZI-XING,
+    CHI-TU,
+    DA-YUAN,
+    DI-LU,
+    ZHAO-HUANG-FEI-DIAN,
+    JUE-YING,
 	
 	
 } CardName;
