@@ -5,7 +5,7 @@
 		<Option title="sanguosha"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\hero\;CMake Files\src\card\;CMake Files\src\rule\;CMake Files\src\player\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\hero\;CMake Files\src\card\;CMake Files\src\rule\;CMake Files\src\player\;CMake Files\src\process_control\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
@@ -141,6 +141,12 @@
 		<Unit filename="D:/software/work/C++/sanguosha/src/player/player.h">
 			<Option target="sanguosha"/>
 		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/process_control/ProcessControl.cpp">
+			<Option target="sanguosha"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/process_control/ProcessControl.h">
+			<Option target="sanguosha"/>
+		</Unit>
 		<Unit filename="D:/software/work/C++/sanguosha/src/rule/identity_rule.cpp">
 			<Option target="sanguosha"/>
 		</Unit>
@@ -164,6 +170,9 @@
 		</Unit>
 		<Unit filename="D:/software/work/C++/sanguosha/src/player/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\player\"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/process_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\process_control\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

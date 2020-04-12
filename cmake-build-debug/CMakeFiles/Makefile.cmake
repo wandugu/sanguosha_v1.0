@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../src/card/CMakeLists.txt"
   "../src/hero/CMakeLists.txt"
   "../src/player/CMakeLists.txt"
+  "../src/process_control/CMakeLists.txt"
   "../src/rule/CMakeLists.txt"
   )
 
@@ -59,6 +60,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/card/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/rule/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/player/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/process_control/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

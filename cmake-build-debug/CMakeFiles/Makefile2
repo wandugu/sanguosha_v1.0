@@ -75,12 +75,12 @@ preinstall: src/preinstall
 CMakeFiles/sanguosha.dir/all:
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/depend
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sanguosha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target sanguosha"
 .PHONY : CMakeFiles/sanguosha.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sanguosha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles 7
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sanguosha.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sanguosha.dir/rule
@@ -103,6 +103,7 @@ src/all: src/hero/all
 src/all: src/card/all
 src/all: src/rule/all
 src/all: src/player/all
+src/all: src/process_control/all
 
 .PHONY : src/all
 
@@ -111,6 +112,7 @@ src/clean: src/hero/clean
 src/clean: src/card/clean
 src/clean: src/rule/clean
 src/clean: src/player/clean
+src/clean: src/process_control/clean
 
 .PHONY : src/clean
 
@@ -119,6 +121,7 @@ src/preinstall: src/hero/preinstall
 src/preinstall: src/card/preinstall
 src/preinstall: src/rule/preinstall
 src/preinstall: src/player/preinstall
+src/preinstall: src/process_control/preinstall
 
 .PHONY : src/preinstall
 
@@ -193,6 +196,24 @@ src/player/clean:
 src/player/preinstall:
 
 .PHONY : src/player/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/process_control
+
+# Recursive "all" directory target.
+src/process_control/all:
+
+.PHONY : src/process_control/all
+
+# Recursive "clean" directory target.
+src/process_control/clean:
+
+.PHONY : src/process_control/clean
+
+# Recursive "preinstall" directory target.
+src/process_control/preinstall:
+
+.PHONY : src/process_control/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

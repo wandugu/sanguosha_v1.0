@@ -31,3 +31,12 @@ void Player::ShowCards(const vector<int> &cards)
     }
     cout << endl;
 }
+
+void Player::DrawCards(vector<int> &cards, HeroSkill heroSkill)
+{
+    vector<int>::iterator dealingCard = cards.begin();
+    for (int i = 0; i < 2; i++) {
+        this->currCards.push_back(*dealingCard);
+        cards.erase(dealingCard);
+    }
+}

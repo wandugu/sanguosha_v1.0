@@ -11,14 +11,14 @@ using namespace std;
 
 using HeroSkill = int(*)(vector<int> &cards);
 
-class soldier {
+class Soldier {
 public:
     int sex;
     int health;
     int country;
     int role;
     string name;
-    HeroSkill skill;
+    HeroSkill skill = nullptr;
 };
 
 

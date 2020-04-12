@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include "../hero/soldier.h"
 
 using namespace std;
 
@@ -15,7 +16,7 @@ public:
     void InitCards();
     void TurnStart();
     void TurnPrepare();
-    void DrawCards();
+    void DrawCards(vector<int> &cards, HeroSkill heroSkill);
     void PlayCards();
     void DiscardCards();
     void TurnEnd();

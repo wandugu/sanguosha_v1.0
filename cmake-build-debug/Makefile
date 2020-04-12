@@ -276,6 +276,33 @@ src/player/player.cpp.s:
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player/player.cpp.s
 .PHONY : src/player/player.cpp.s
 
+src/process_control/ProcessControl.obj: src/process_control/ProcessControl.cpp.obj
+
+.PHONY : src/process_control/ProcessControl.obj
+
+# target to build an object file
+src/process_control/ProcessControl.cpp.obj:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj
+.PHONY : src/process_control/ProcessControl.cpp.obj
+
+src/process_control/ProcessControl.i: src/process_control/ProcessControl.cpp.i
+
+.PHONY : src/process_control/ProcessControl.i
+
+# target to preprocess a source file
+src/process_control/ProcessControl.cpp.i:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.i
+.PHONY : src/process_control/ProcessControl.cpp.i
+
+src/process_control/ProcessControl.s: src/process_control/ProcessControl.cpp.s
+
+.PHONY : src/process_control/ProcessControl.s
+
+# target to generate assembly for a file
+src/process_control/ProcessControl.cpp.s:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.s
+.PHONY : src/process_control/ProcessControl.cpp.s
+
 src/rule/identity_rule.obj: src/rule/identity_rule.cpp.obj
 
 .PHONY : src/rule/identity_rule.obj
@@ -328,6 +355,9 @@ help:
 	@echo ... src/player/player.obj
 	@echo ... src/player/player.i
 	@echo ... src/player/player.s
+	@echo ... src/process_control/ProcessControl.obj
+	@echo ... src/process_control/ProcessControl.i
+	@echo ... src/process_control/ProcessControl.s
 	@echo ... src/rule/identity_rule.obj
 	@echo ... src/rule/identity_rule.i
 	@echo ... src/rule/identity_rule.s

@@ -35,3 +35,9 @@ D:/software/work/C++/sanguosha/cmake-build-debug/src/player/CMakeFiles/edit_cach
 D:/software/work/C++/sanguosha/cmake-build-debug/src/player/CMakeFiles/rebuild_cache.dir
 D:/software/work/C++/sanguosha/cmake-build-debug/src/player/CMakeFiles/list_install_components.dir
 D:/software/work/C++/sanguosha/cmake-build-debug/src/player/CMakeFiles/install/strip.dir
+D:/software/work/C++/sanguosha/cmake-build-debug/src/process_control/CMakeFiles/install/local.dir
+D:/software/work/C++/sanguosha/cmake-build-debug/src/process_control/CMakeFiles/install.dir
+D:/software/work/C++/sanguosha/cmake-build-debug/src/process_control/CMakeFiles/edit_cache.dir
+D:/software/work/C++/sanguosha/cmake-build-debug/src/process_control/CMakeFiles/rebuild_cache.dir
+D:/software/work/C++/sanguosha/cmake-build-debug/src/process_control/CMakeFiles/list_install_components.dir
+D:/software/work/C++/sanguosha/cmake-build-debug/src/process_control/CMakeFiles/install/strip.dir

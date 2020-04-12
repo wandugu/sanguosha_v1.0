@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/software/work/C++/sanguosha/src/hero/soldier.cpp" "D:/software/work/C++/sanguosha/cmake-build-debug/CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj"
   "D:/software/work/C++/sanguosha/src/main.cpp" "D:/software/work/C++/sanguosha/cmake-build-debug/CMakeFiles/sanguosha.dir/src/main.cpp.obj"
   "D:/software/work/C++/sanguosha/src/player/player.cpp" "D:/software/work/C++/sanguosha/cmake-build-debug/CMakeFiles/sanguosha.dir/src/player/player.cpp.obj"
+  "D:/software/work/C++/sanguosha/src/process_control/ProcessControl.cpp" "D:/software/work/C++/sanguosha/cmake-build-debug/CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj"
   "D:/software/work/C++/sanguosha/src/rule/identity_rule.cpp" "D:/software/work/C++/sanguosha/cmake-build-debug/CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

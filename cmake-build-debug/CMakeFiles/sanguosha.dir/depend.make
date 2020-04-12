@@ -3,18 +3,28 @@
 
 CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: ../src/card/card_info.cpp
 CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: ../src/card/card_info.h
+CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: ../src/hero/soldier.h
 CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: ../src/player/player.h
 
 CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj: ../src/hero/soldier.cpp
 CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj: ../src/hero/soldier.h
 
 CMakeFiles/sanguosha.dir/src/main.cpp.obj: ../src/card/card_info.h
+CMakeFiles/sanguosha.dir/src/main.cpp.obj: ../src/hero/soldier.h
 CMakeFiles/sanguosha.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/sanguosha.dir/src/main.cpp.obj: ../src/player/player.h
+CMakeFiles/sanguosha.dir/src/main.cpp.obj: ../src/process_control/ProcessControl.h
 
 CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: ../src/card/card_info.h
+CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: ../src/hero/soldier.h
 CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: ../src/player/player.cpp
 CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: ../src/player/player.h
+
+CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: ../src/card/card_info.h
+CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: ../src/hero/soldier.h
+CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: ../src/player/player.h
+CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: ../src/process_control/ProcessControl.cpp
+CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: ../src/process_control/ProcessControl.h
 
 CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj: ../src/rule/identity_rule.cpp
 CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj: ../src/rule/identity_rule.h
