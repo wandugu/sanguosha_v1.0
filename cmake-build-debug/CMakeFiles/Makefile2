@@ -53,16 +53,18 @@ CMAKE_BINARY_DIR = D:\software\work\C++\sanguosha\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/sanguosha.dir/all
+all: src/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/sanguosha.dir/clean
+clean: src/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 
 .PHONY : preinstall
 
@@ -73,12 +75,12 @@ preinstall:
 CMakeFiles/sanguosha.dir/all:
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/depend
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target sanguosha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sanguosha"
 .PHONY : CMakeFiles/sanguosha.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sanguosha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sanguosha.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sanguosha.dir/rule
@@ -92,6 +94,105 @@ sanguosha: CMakeFiles/sanguosha.dir/rule
 CMakeFiles/sanguosha.dir/clean:
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/clean
 .PHONY : CMakeFiles/sanguosha.dir/clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/hero/all
+src/all: src/card/all
+src/all: src/rule/all
+src/all: src/player/all
+
+.PHONY : src/all
+
+# Recursive "clean" directory target.
+src/clean: src/hero/clean
+src/clean: src/card/clean
+src/clean: src/rule/clean
+src/clean: src/player/clean
+
+.PHONY : src/clean
+
+# Recursive "preinstall" directory target.
+src/preinstall: src/hero/preinstall
+src/preinstall: src/card/preinstall
+src/preinstall: src/rule/preinstall
+src/preinstall: src/player/preinstall
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/hero
+
+# Recursive "all" directory target.
+src/hero/all:
+
+.PHONY : src/hero/all
+
+# Recursive "clean" directory target.
+src/hero/clean:
+
+.PHONY : src/hero/clean
+
+# Recursive "preinstall" directory target.
+src/hero/preinstall:
+
+.PHONY : src/hero/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/card
+
+# Recursive "all" directory target.
+src/card/all:
+
+.PHONY : src/card/all
+
+# Recursive "clean" directory target.
+src/card/clean:
+
+.PHONY : src/card/clean
+
+# Recursive "preinstall" directory target.
+src/card/preinstall:
+
+.PHONY : src/card/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/rule
+
+# Recursive "all" directory target.
+src/rule/all:
+
+.PHONY : src/rule/all
+
+# Recursive "clean" directory target.
+src/rule/clean:
+
+.PHONY : src/rule/clean
+
+# Recursive "preinstall" directory target.
+src/rule/preinstall:
+
+.PHONY : src/rule/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/player
+
+# Recursive "all" directory target.
+src/player/all:
+
+.PHONY : src/player/all
+
+# Recursive "clean" directory target.
+src/player/clean:
+
+.PHONY : src/player/clean
+
+# Recursive "preinstall" directory target.
+src/player/preinstall:
+
+.PHONY : src/player/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

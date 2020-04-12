@@ -38,6 +38,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../src/CMakeLists.txt"
+  "../src/card/CMakeLists.txt"
+  "../src/hero/CMakeLists.txt"
+  "../src/player/CMakeLists.txt"
+  "../src/rule/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -49,6 +54,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/hero/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/card/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/rule/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/player/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

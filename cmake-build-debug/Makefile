@@ -168,32 +168,59 @@ sanguosha/fast:
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/build
 .PHONY : sanguosha/fast
 
-src/card_info.obj: src/card_info.cpp.obj
+src/card/card_info.obj: src/card/card_info.cpp.obj
 
-.PHONY : src/card_info.obj
+.PHONY : src/card/card_info.obj
 
 # target to build an object file
-src/card_info.cpp.obj:
-	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/card_info.cpp.obj
-.PHONY : src/card_info.cpp.obj
+src/card/card_info.cpp.obj:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj
+.PHONY : src/card/card_info.cpp.obj
 
-src/card_info.i: src/card_info.cpp.i
+src/card/card_info.i: src/card/card_info.cpp.i
 
-.PHONY : src/card_info.i
+.PHONY : src/card/card_info.i
 
 # target to preprocess a source file
-src/card_info.cpp.i:
-	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/card_info.cpp.i
-.PHONY : src/card_info.cpp.i
+src/card/card_info.cpp.i:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/card/card_info.cpp.i
+.PHONY : src/card/card_info.cpp.i
 
-src/card_info.s: src/card_info.cpp.s
+src/card/card_info.s: src/card/card_info.cpp.s
 
-.PHONY : src/card_info.s
+.PHONY : src/card/card_info.s
 
 # target to generate assembly for a file
-src/card_info.cpp.s:
-	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/card_info.cpp.s
-.PHONY : src/card_info.cpp.s
+src/card/card_info.cpp.s:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/card/card_info.cpp.s
+.PHONY : src/card/card_info.cpp.s
+
+src/hero/soldier.obj: src/hero/soldier.cpp.obj
+
+.PHONY : src/hero/soldier.obj
+
+# target to build an object file
+src/hero/soldier.cpp.obj:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj
+.PHONY : src/hero/soldier.cpp.obj
+
+src/hero/soldier.i: src/hero/soldier.cpp.i
+
+.PHONY : src/hero/soldier.i
+
+# target to preprocess a source file
+src/hero/soldier.cpp.i:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.i
+.PHONY : src/hero/soldier.cpp.i
+
+src/hero/soldier.s: src/hero/soldier.cpp.s
+
+.PHONY : src/hero/soldier.s
+
+# target to generate assembly for a file
+src/hero/soldier.cpp.s:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.s
+.PHONY : src/hero/soldier.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -222,32 +249,59 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/player.obj: src/player.cpp.obj
+src/player/player.obj: src/player/player.cpp.obj
 
-.PHONY : src/player.obj
+.PHONY : src/player/player.obj
 
 # target to build an object file
-src/player.cpp.obj:
-	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player.cpp.obj
-.PHONY : src/player.cpp.obj
+src/player/player.cpp.obj:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player/player.cpp.obj
+.PHONY : src/player/player.cpp.obj
 
-src/player.i: src/player.cpp.i
+src/player/player.i: src/player/player.cpp.i
 
-.PHONY : src/player.i
+.PHONY : src/player/player.i
 
 # target to preprocess a source file
-src/player.cpp.i:
-	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player.cpp.i
-.PHONY : src/player.cpp.i
+src/player/player.cpp.i:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player/player.cpp.i
+.PHONY : src/player/player.cpp.i
 
-src/player.s: src/player.cpp.s
+src/player/player.s: src/player/player.cpp.s
 
-.PHONY : src/player.s
+.PHONY : src/player/player.s
 
 # target to generate assembly for a file
-src/player.cpp.s:
-	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player.cpp.s
-.PHONY : src/player.cpp.s
+src/player/player.cpp.s:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/player/player.cpp.s
+.PHONY : src/player/player.cpp.s
+
+src/rule/identity_rule.obj: src/rule/identity_rule.cpp.obj
+
+.PHONY : src/rule/identity_rule.obj
+
+# target to build an object file
+src/rule/identity_rule.cpp.obj:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj
+.PHONY : src/rule/identity_rule.cpp.obj
+
+src/rule/identity_rule.i: src/rule/identity_rule.cpp.i
+
+.PHONY : src/rule/identity_rule.i
+
+# target to preprocess a source file
+src/rule/identity_rule.cpp.i:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.i
+.PHONY : src/rule/identity_rule.cpp.i
+
+src/rule/identity_rule.s: src/rule/identity_rule.cpp.s
+
+.PHONY : src/rule/identity_rule.s
+
+# target to generate assembly for a file
+src/rule/identity_rule.cpp.s:
+	$(MAKE) -f CMakeFiles\sanguosha.dir\build.make CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.s
+.PHONY : src/rule/identity_rule.cpp.s
 
 # Help Target
 help:
@@ -262,15 +316,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... list_install_components
 	@echo ... install/strip
-	@echo ... src/card_info.obj
-	@echo ... src/card_info.i
-	@echo ... src/card_info.s
+	@echo ... src/card/card_info.obj
+	@echo ... src/card/card_info.i
+	@echo ... src/card/card_info.s
+	@echo ... src/hero/soldier.obj
+	@echo ... src/hero/soldier.i
+	@echo ... src/hero/soldier.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/player.obj
-	@echo ... src/player.i
-	@echo ... src/player.s
+	@echo ... src/player/player.obj
+	@echo ... src/player/player.i
+	@echo ... src/player/player.s
+	@echo ... src/rule/identity_rule.obj
+	@echo ... src/rule/identity_rule.i
+	@echo ... src/rule/identity_rule.s
 .PHONY : help
 
 

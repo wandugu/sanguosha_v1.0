@@ -11,7 +11,7 @@ public:
     Player();
     Player(int playTotalNum);
     Player(const Player &player);
-    ~Player();
+    virtual ~Player();
     void InitCards();
     void TurnStart();
     void TurnPrepare();

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sanguosha.dir/src/card_info.cpp.obj"
+  "CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj"
+  "CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj"
   "CMakeFiles/sanguosha.dir/src/main.cpp.obj"
-  "CMakeFiles/sanguosha.dir/src/player.cpp.obj"
+  "CMakeFiles/sanguosha.dir/src/player/player.cpp.obj"
+  "CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj"
   "libsanguosha.dll.a"
   "sanguosha.exe"
   "sanguosha.exe.manifest"

@@ -50,6 +50,11 @@ file(INSTALL DESTINATION "D:/software/work/C++/sanguosha/test" TYPE EXECUTABLE F
   endif()
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/software/work/C++/sanguosha/cmake-build-debug/src/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

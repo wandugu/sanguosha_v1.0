@@ -1,6 +1,6 @@
 #include <iostream>
-#include "card_info.h"
-#include "player.h"
+#include "card/card_info.h"
+#include "player/player.h"
 
 int main() {
     Card *card = new Card;
@@ -14,7 +14,7 @@ int main() {
     player[1].ShowCards(player[1].currCards);
     player[2].ShowCards(player[2].currCards);
     card->ShowCards(card->surplusCards);
-    cout << "wan" << endl;
+    cout << "Game End" << endl;
     system("pause");
     return 0;
 }

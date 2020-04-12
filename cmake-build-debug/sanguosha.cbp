@@ -5,7 +5,7 @@
 		<Option title="sanguosha"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\hero\;CMake Files\src\card\;CMake Files\src\rule\;CMake Files\src\player\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/software/work/C++/sanguosha/cmake-build-debug"/>
@@ -54,7 +54,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/software/work/C++/sanguosha/src"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -76,7 +75,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/software/work/C++/sanguosha/src"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -122,23 +120,50 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/software/work/C++/sanguosha/src/card_info.cpp">
+		<Unit filename="D:/software/work/C++/sanguosha/src/card/card_info.cpp">
 			<Option target="sanguosha"/>
 		</Unit>
-		<Unit filename="D:/software/work/C++/sanguosha/src/card_info.h">
+		<Unit filename="D:/software/work/C++/sanguosha/src/card/card_info.h">
+			<Option target="sanguosha"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/hero/soldier.cpp">
+			<Option target="sanguosha"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/hero/soldier.h">
 			<Option target="sanguosha"/>
 		</Unit>
 		<Unit filename="D:/software/work/C++/sanguosha/src/main.cpp">
 			<Option target="sanguosha"/>
 		</Unit>
-		<Unit filename="D:/software/work/C++/sanguosha/src/player.cpp">
+		<Unit filename="D:/software/work/C++/sanguosha/src/player/player.cpp">
 			<Option target="sanguosha"/>
 		</Unit>
-		<Unit filename="D:/software/work/C++/sanguosha/src/player.h">
+		<Unit filename="D:/software/work/C++/sanguosha/src/player/player.h">
+			<Option target="sanguosha"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/rule/identity_rule.cpp">
+			<Option target="sanguosha"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/rule/identity_rule.h">
 			<Option target="sanguosha"/>
 		</Unit>
 		<Unit filename="D:/software/work/C++/sanguosha/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/hero/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\hero\"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/card/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\card\"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/rule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\rule\"/>
+		</Unit>
+		<Unit filename="D:/software/work/C++/sanguosha/src/player/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\player\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

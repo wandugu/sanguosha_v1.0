@@ -6,14 +6,12 @@ set(CMAKE_CXX_STANDARD 11)
 add_compile_options(-std=c++11)
 
 set(CMAKE_EXE_LINKER_FLAGS "-static")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
 
-include_directories(src)
+set(sgsAll src/rule/identity_rule.cpp src/rule/identity_rule.h)
 
-set(sgsAll src/main.cpp
-           src/player.cpp
-           src/card_info.cpp
-    )
-
-add_executable(sanguosha ${sgsAll})
+add_executable(sanguosha ${sgsAll} src/rule/identity_rule.cpp src/rule/identity_rule.h)
 
 install(TARGETS sanguosha DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/test)
+
+add_subdirectory(src)

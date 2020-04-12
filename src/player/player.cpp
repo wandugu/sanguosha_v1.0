@@ -1,5 +1,5 @@
 #include "player.h"
-#include "card_info.h"
+#include "../card/card_info.h"
 
 extern CardDetail cardInfo[200];
 
@@ -22,12 +22,12 @@ Player::Player(const Player &player)
 
 void Player::ShowCards(const vector<int> &cards)
 {
+//    for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
+//        cout << *iter << ",";
+//    }
+//    cout << endl;
     for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
-        cout << *iter << ",";
-    }
-    cout << endl;
-    for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
-        cout << cardInfo[*iter - 1].nameNum << ",";
+        cout << cardInfo[*iter - 1].name << ",";
     }
     cout << endl;
 }
