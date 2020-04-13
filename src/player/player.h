@@ -26,6 +26,7 @@ public:
     int identity;
     int health;
     int nickName;
+    Soldier soldier;
 private:
 
 };

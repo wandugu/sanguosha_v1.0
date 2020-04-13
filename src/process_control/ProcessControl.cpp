@@ -4,21 +4,50 @@
 
 #include "ProcessControl.h"
 
-void ProcessControl::GameStart()
+void ProcessControl::GameStart(Card *card, vector<Player> &player)
 {
-    cout << "Game Start" << endl;
-    Card *card = new Card;
     card->InitCards();
     card->ReshuffleCards(card->surplusCards);
     card->ShowCards(card->surplusCards);
-    vector<Player> player(3, 3);
-
-    card->Start(card->surplusCards, player, 3);
-    player[0].ShowCards(player[0].currCards);
-    player[1].ShowCards(player[1].currCards);
-    player[2].ShowCards(player[2].currCards);
+    cout << "-------- 游戏开始发牌 --------" << endl;
+    card->Start(card->surplusCards, player, player.size());
+    for (int i = 0; i < player.size(); i++) {
+        cout << "玩家" << i << "此时的牌是：";
+        player[i].ShowCards(player[i].currCards);
+    }
     card->ShowCards(card->surplusCards);
+}
 
-    player[0].DrawCards(card->surplusCards, nullptr);
-    player[0].ShowCards(player[0].currCards);
+void ProcessControl::PhaseOfStart(Card *card, Player &player, const int playNum)
+{
+    cout << "-------- 回合开始 --------" << endl;
+}
+
+void ProcessControl::PhaseOfPrepare(Card *card, Player &player, const int playNum)
+{
+    cout << "-------- 准备阶段 --------" << endl;
+}
+
+void ProcessControl::PhaseOfDrawCards(Card *card, Player &player, const int playNum)
+{
+    cout << "-------- 摸牌阶段 --------" << endl;
+//        cout << "玩家" << i << "摸牌" << endl;
+        player.DrawCards(card->surplusCards, nullptr);
+        cout << "玩家" << playNum << "此时的牌是：";
+        player.ShowCards(player.currCards);
+}
+
+void ProcessControl::PhaseOfPlayCards(Card *card, Player &player, const int playNum)
+{
+    cout << "-------- 出牌阶段 --------" << endl;
+}
+
+void ProcessControl::PhaseOfDiscardCards(Card *card, Player &player, const int playNum)
+{
+    cout << "-------- 弃牌阶段 --------" << endl;
+}
+
+void ProcessControl::PhaseOfEnd(Card *card, Player &player, const int playNum)
+{
+    cout << "-------- 回合结束 --------" << endl;
 }

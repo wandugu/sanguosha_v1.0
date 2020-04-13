@@ -276,7 +276,7 @@ void Card::InitCards()
 
 void Card::ShowCards(const vector<int> &cards)
 {
-    cout << "-------- surplus cards --------" << endl;
+    cout << "-------- 剩余牌堆如下 --------" << endl;
 //    for(vector<int>::const_iterator iter = cards.begin(); iter != cards.end(); iter++) {
 //        cout << *iter << ",";
 //    }

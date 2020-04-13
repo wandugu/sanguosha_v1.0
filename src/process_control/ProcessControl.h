@@ -10,8 +10,14 @@
 
 class ProcessControl {
 public:
-    void GameStart();
-    void PhaseOfDrawCards();
+    void GameStart(Card *card, vector<Player> &player);
+    void GamePlaying(Card *card, vector<Player> &player);
+    void PhaseOfStart(Card *card, Player &player, const int playNum);
+    void PhaseOfPrepare(Card *card, Player &player, const int playNum);
+    void PhaseOfDrawCards(Card *card, Player &player, const int playNum);
+    void PhaseOfPlayCards(Card *card, Player &player, const int playNum);
+    void PhaseOfDiscardCards(Card *card, Player &player, const int playNum);
+    void PhaseOfEnd(Card *card, Player &player, const int playNum);
 };
 
 
