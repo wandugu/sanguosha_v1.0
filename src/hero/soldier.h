@@ -19,6 +19,7 @@ public:
     int role;
     string name;
     HeroSkill skill = nullptr;
+    virtual ~Soldier(){};
 };
 
 

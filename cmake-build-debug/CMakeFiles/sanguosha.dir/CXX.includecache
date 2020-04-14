@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+D:/software/work/C++/sanguosha/src/card/card_info.cpp
+iostream
+-
+vector
+-
+../card/card_info.h
+D:/software/work/C++/sanguosha/src/card/card_info.h
+../player/player.h
+D:/software/work/C++/sanguosha/src/player/player.h
+algorithm
+-
+cstdlib
+-
+ctime
+-
+
 D:/software/work/C++/sanguosha/src/card/card_info.h
 iostream
 -
@@ -15,6 +31,12 @@ string
 -
 ../player/player.h
 D:/software/work/C++/sanguosha/src/player/player.h
+
+D:/software/work/C++/sanguosha/src/hero/soldier.cpp
+vector
+-
+soldier.h
+D:/software/work/C++/sanguosha/src/hero/soldier.h
 
 D:/software/work/C++/sanguosha/src/hero/soldier.h
 string
@@ -34,6 +56,12 @@ D:/software/work/C++/sanguosha/src/hero/soldier.h
 process_control/ProcessControl.h
 D:/software/work/C++/sanguosha/src/process_control/ProcessControl.h
 
+D:/software/work/C++/sanguosha/src/player/player.cpp
+player.h
+D:/software/work/C++/sanguosha/src/player/player.h
+../card/card_info.h
+D:/software/work/C++/sanguosha/src/card/card_info.h
+
 D:/software/work/C++/sanguosha/src/player/player.h
 iostream
 -
@@ -41,6 +69,10 @@ vector
 -
 ../hero/soldier.h
 D:/software/work/C++/sanguosha/src/hero/soldier.h
+
+D:/software/work/C++/sanguosha/src/process_control/ProcessControl.cpp
+ProcessControl.h
+D:/software/work/C++/sanguosha/src/process_control/ProcessControl.h
 
 D:/software/work/C++/sanguosha/src/process_control/ProcessControl.h
 ../player/player.h
