@@ -1,5 +1,5 @@
-target_link_libraries(sanguosha ${CMAKE_CURRENT_SOURCE_DIR})
-
+# target_link_libraries(sanguosha ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(sanguosha PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 file(GLOB CUR_SRC ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 target_sources(sanguosha PRIVATE ${CUR_SRC})
 

@@ -1,10 +1,4 @@
 "C:\wandugu\soft\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\software\work\C++\sanguosha
 -- Configuring done
-WARNING: Target "sanguosha" requests linking to directory "D:/software/work/C++/sanguosha/src".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "sanguosha" requests linking to directory "D:/software/work/C++/sanguosha/src/hero".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "sanguosha" requests linking to directory "D:/software/work/C++/sanguosha/src/card".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "sanguosha" requests linking to directory "D:/software/work/C++/sanguosha/src/rule".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "sanguosha" requests linking to directory "D:/software/work/C++/sanguosha/src/player".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "sanguosha" requests linking to directory "D:/software/work/C++/sanguosha/src/process_control".  Targets may link only to libraries.  CMake is dropping the item.
 -- Generating done
 -- Build files have been written to: D:/software/work/C++/sanguosha/cmake-build-debug

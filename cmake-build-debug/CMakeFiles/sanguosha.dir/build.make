@@ -57,6 +57,7 @@ include CMakeFiles/sanguosha.dir/progress.make
 include CMakeFiles/sanguosha.dir/flags.make
 
 CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj: CMakeFiles/sanguosha.dir/flags.make
+CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj: CMakeFiles/sanguosha.dir/includes_CXX.rsp
 CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj: ../src/rule/identity_rule.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.obj"
 	C:\wandugu\soft\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sanguosha.dir\src\rule\identity_rule.cpp.obj -c D:\software\work\C++\sanguosha\src\rule\identity_rule.cpp
@@ -70,6 +71,7 @@ CMakeFiles/sanguosha.dir/src/rule/identity_rule.cpp.s: cmake_force
 	C:\wandugu\soft\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\software\work\C++\sanguosha\src\rule\identity_rule.cpp -o CMakeFiles\sanguosha.dir\src\rule\identity_rule.cpp.s
 
 CMakeFiles/sanguosha.dir/src/main.cpp.obj: CMakeFiles/sanguosha.dir/flags.make
+CMakeFiles/sanguosha.dir/src/main.cpp.obj: CMakeFiles/sanguosha.dir/includes_CXX.rsp
 CMakeFiles/sanguosha.dir/src/main.cpp.obj: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sanguosha.dir/src/main.cpp.obj"
 	C:\wandugu\soft\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sanguosha.dir\src\main.cpp.obj -c D:\software\work\C++\sanguosha\src\main.cpp
@@ -83,6 +85,7 @@ CMakeFiles/sanguosha.dir/src/main.cpp.s: cmake_force
 	C:\wandugu\soft\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\software\work\C++\sanguosha\src\main.cpp -o CMakeFiles\sanguosha.dir\src\main.cpp.s
 
 CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj: CMakeFiles/sanguosha.dir/flags.make
+CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj: CMakeFiles/sanguosha.dir/includes_CXX.rsp
 CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj: ../src/hero/soldier.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.obj"
 	C:\wandugu\soft\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sanguosha.dir\src\hero\soldier.cpp.obj -c D:\software\work\C++\sanguosha\src\hero\soldier.cpp
@@ -96,6 +99,7 @@ CMakeFiles/sanguosha.dir/src/hero/soldier.cpp.s: cmake_force
 	C:\wandugu\soft\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\software\work\C++\sanguosha\src\hero\soldier.cpp -o CMakeFiles\sanguosha.dir\src\hero\soldier.cpp.s
 
 CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: CMakeFiles/sanguosha.dir/flags.make
+CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: CMakeFiles/sanguosha.dir/includes_CXX.rsp
 CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj: ../src/card/card_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sanguosha.dir/src/card/card_info.cpp.obj"
 	C:\wandugu\soft\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sanguosha.dir\src\card\card_info.cpp.obj -c D:\software\work\C++\sanguosha\src\card\card_info.cpp
@@ -109,6 +113,7 @@ CMakeFiles/sanguosha.dir/src/card/card_info.cpp.s: cmake_force
 	C:\wandugu\soft\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\software\work\C++\sanguosha\src\card\card_info.cpp -o CMakeFiles\sanguosha.dir\src\card\card_info.cpp.s
 
 CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: CMakeFiles/sanguosha.dir/flags.make
+CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: CMakeFiles/sanguosha.dir/includes_CXX.rsp
 CMakeFiles/sanguosha.dir/src/player/player.cpp.obj: ../src/player/player.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sanguosha.dir/src/player/player.cpp.obj"
 	C:\wandugu\soft\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sanguosha.dir\src\player\player.cpp.obj -c D:\software\work\C++\sanguosha\src\player\player.cpp
@@ -122,6 +127,7 @@ CMakeFiles/sanguosha.dir/src/player/player.cpp.s: cmake_force
 	C:\wandugu\soft\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\software\work\C++\sanguosha\src\player\player.cpp -o CMakeFiles\sanguosha.dir\src\player\player.cpp.s
 
 CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: CMakeFiles/sanguosha.dir/flags.make
+CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: CMakeFiles/sanguosha.dir/includes_CXX.rsp
 CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj: ../src/process_control/ProcessControl.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\software\work\C++\sanguosha\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sanguosha.dir/src/process_control/ProcessControl.cpp.obj"
 	C:\wandugu\soft\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sanguosha.dir\src\process_control\ProcessControl.cpp.obj -c D:\software\work\C++\sanguosha\src\process_control\ProcessControl.cpp

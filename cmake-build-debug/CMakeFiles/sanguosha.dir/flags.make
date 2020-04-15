@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -fexec-charset=GBK -g   -std=c++11 -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/sanguosha.dir/includes_CXX.rsp
 

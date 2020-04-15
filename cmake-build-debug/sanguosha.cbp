@@ -54,6 +54,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/software/work/C++/sanguosha/src"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/hero"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/card"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/rule"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/player"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/process_control"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -75,6 +81,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/software/work/C++/sanguosha/src"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/hero"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/card"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/rule"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/player"/>
+					<Add directory="D:/software/work/C++/sanguosha/src/process_control"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/wandugu/soft/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
