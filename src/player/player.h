@@ -22,7 +22,7 @@ public:
     void TurnEnd();
     void ShowCards(const vector<int> &cards);
     vector<int> currCards;
-    int totalNum;
+    static int totalNum;
     int identity;
     int health;
     int nickName;

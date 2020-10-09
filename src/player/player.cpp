@@ -5,7 +5,7 @@ extern CardDetail cardInfo[200];
 
 Player::Player(int totalNum)
 {
-    this->totalNum = totalNum;
+    this->totalNum++;
     cout << "-------- 本次游戏共有" << totalNum << "名玩家 --------"<<endl;
 }
 
@@ -16,7 +16,7 @@ Player::~Player()
 
 Player::Player(const Player &player)
 {
-    this->totalNum = player.totalNum;
+    // this->totalNum = player.totalNum;
 //    cout << "copy construct" << endl;
 }
 
